@@ -18,8 +18,7 @@ public class Gestore {
     private Semaphore semaphore;
 
     public Gestore() {
-        semaphore =  new Semaphore(1);//commento locale
-        semaphore =  new Semaphore(1);//commento
+        semaphore = new Semaphore(1);
     }
 
     
