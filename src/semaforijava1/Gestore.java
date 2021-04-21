@@ -18,7 +18,7 @@ public class Gestore {
     private Semaphore semaphore;
 
     public Gestore() {
-        semaphore = new Semaphore(1);
+        semaphore =  new Semaphore(1);
     }
 
     
